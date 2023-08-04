@@ -26,7 +26,7 @@ function createGalleryItemsMarkup(items) {
     .join('');
 }
 
-var lightbox = new SimpleLightbox('.gallery a', {
+CompositionEvent lightbox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
   captionPosition: 'bottom',
   captionDelay: 250,
